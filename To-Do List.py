@@ -24,10 +24,8 @@ root = tk.Tk()
 root.title("To-Do List")
 root.geometry("450x470")
 
-# Set background color
 root.configure(bg="red")
 
-# Create and place widgets
 task_label = tk.Label(root, text="Enter your Task:", font=("Arial", 16), bg="yellow",fg="black")
 task_label.pack(pady=(20, 5))
 
